@@ -53,11 +53,14 @@ We devised a new pipeline to try to get it to learn properly.
 4. within each folder of a single identity, we created ordered [N*(N-1)] source-target image pairs where N is the nubmer of unique images in the folder.
 5. By splicing a texture map with the face of the source with the clothes of the target image, we created the perfect "re-pose" task where the goal is to simply generate the target image.
 
-We had just enough time to train this model once or twice, and our results were as follows:
-- the model always generated high quality images
+We had just enough time to train this model a few times, and our results were as follows:
+- the model could generate high quality images
 - the model could approximate the colour and texture of the intended clothes
-- the pose was always correct
-- But, the face was not preserved with high enough fidelity for a user
+- the pose was almost always correct
+- But, the face was not preserved. We saw a heavy bias from the dataset.
+
+Here are some examples, where it generates a consistent pose and consistent clothing, but not correct identity. It had issues with longer hair on men, shadows in the input images (like the image of me in the centre column), and older people, like Bill on the right. 
+![SPGAN_results drawio (1) copy](https://github.com/RickSugden/styleposegan-stylegan2/assets/41484082/5daa41fe-668c-48d0-8213-3cbad1f0fd77)
 
 Unofortunately, that marked the end of our time and money to pursue this problem. And we no longer had a clear blueprint that we thought would suffice for our product. 
 
