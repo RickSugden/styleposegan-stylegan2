@@ -62,8 +62,5 @@ We had just enough time to train this model a few times, and our results were as
 Here are some examples, where it generates a consistent pose and consistent clothing, but not correct identity. It had issues with longer hair on men, shadows in the input images (like the image of me in the centre column), and older people, like Bill on the right. 
 ![SPGAN_results drawio (1) copy](https://github.com/RickSugden/styleposegan-stylegan2/assets/41484082/5daa41fe-668c-48d0-8213-3cbad1f0fd77)
 
-Unofortunately, that marked the end of our time and money to pursue this problem. And we no longer had a clear blueprint that we thought would suffice for our product. 
-
-Here is a gallery of some of our results:
-
-coming soon....
+With time and money winding down, we no longer had a clear blueprint to build our MVP. Unfortunately, that concluded our startup project. 
+I'm very grateful to my good friends Madhav Singhal (replit) and Kshitij Shah (Google) for an adventurous summer building and learning so much about AI, image processing, software dev, and startups.
